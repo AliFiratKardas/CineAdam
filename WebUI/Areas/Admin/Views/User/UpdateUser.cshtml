@@ -1,0 +1,51 @@
+﻿@model DataAccess.Entity.User
+@{
+    ViewData["Title"] = "UpdateUser";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<form asp-action="UpdateUser" asp-controller="User" method="post">
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+        </div>
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+        <input asp-for="FirstName" class="form-control" />
+    </div> <!-- form-group// -->
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+        </div>
+        <span asp-validation-for="LastName" class="text-danger"></span>
+        <input asp-for="LastName" class="form-control" />
+    </div>
+
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+        </div>
+        <span asp-validation-for="UserName" class="text-danger"></span>
+        <input asp-for="UserName" class="form-control" />
+    </div>
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+        </div>
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+
+    <div class="form-group form-check">
+        <input asp-for="IsStudent" type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">öğrenci mi?</label>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Güncelle  </button>
+    </div> <!-- form-group// -->
+</form>
+
+

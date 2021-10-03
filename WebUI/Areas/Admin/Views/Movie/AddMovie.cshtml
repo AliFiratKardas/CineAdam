@@ -1,0 +1,26 @@
+﻿@model DataAccess.Entity.Movie
+@{
+    ViewData["Title"] = "AddMovie";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="AddMovie" asp-controller="Movie" method="post">
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Film adı</label>
+        <input asp-for="MovieName" type="text" class="form-control" placeholder="Film Adı Giriniz">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Süre</label>
+        <input asp-for="Duration" type="text" class="form-control" placeholder="Süre Giriniz">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Açıklama</label>
+        <input asp-for="Description" type="text" class="form-control" placeholder="Açıklama Giriniz">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Puan</label>
+            <input asp-for="Rank" type="text" class="form-control" placeholder="Puan Giriniz">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

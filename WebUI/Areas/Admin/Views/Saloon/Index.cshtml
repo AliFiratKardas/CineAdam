@@ -1,0 +1,58 @@
+﻿@model List<DataAccess.Entity.Saloon>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Salonlar</h2>
+            </div>
+            <div class="col-md-6 text-right">
+
+                <a asp-action="AddSaloon" asp-controller="Saloon" type="submit" class="btn btn-primary">Ekle</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Salon Adı</th>
+                    <th>Durum</th>
+                    <th>Kapasite</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var saloon in Model)
+                {
+                <tr>
+                    <td>@saloon.Id</td>
+                    <td>@saloon.SaloonName</td>
+                    <td>@saloon.Capacity</td>
+                    <td>
+                        @{
+                            if (saloon.IsActive)
+                            {
+                                <span class="badge badge-success">Aktif</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-danger">Pasif</span>
+                            }
+                        }
+                    </td>
+                    <td> <a asp-action="DeleteSaloon" asp-controller="Saloon" asp-route-id="@saloon.Id" type="submit" class="btn btn-danger">Sil</a></td>
+                    <td> <a asp-action="UpdateSaloon" asp-controller="Saloon" asp-route-id="@saloon.Id" type="submit" class="btn btn-warning">Güncelle</a></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

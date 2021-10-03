@@ -1,0 +1,19 @@
+﻿@model DataAccess.Entity.Saloon 
+@{
+    ViewData["Title"] = "DeleteSaloon";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="panel">
+            <div class="alert alert-danger">
+                <form method="post">
+                    <label asp-for="SaloonName"></label>
+                    <span>Silmek istediğinize emin misiniz?</span>
+                    <a asp-controller="Saloon" asp-action="Index" type="submit" class="btn btn-danger"> evet sil</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

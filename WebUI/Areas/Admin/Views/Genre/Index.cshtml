@@ -1,0 +1,53 @@
+﻿@model List<DataAccess.Entity.Genre>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Türler</h2>
+            </div>
+            <div class="col-md-6 text-right">
+
+                <a asp-action="AddGenre" asp-controller="Genre" type="submit" class="btn btn-primary">Ekle</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Tür</th>
+                    <th>Durum</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var genre in Model)
+                {
+                <tr>
+                    <td>@genre.Id</td>
+                    <td>@genre.GenreName</td>
+                    <td>
+                        @{
+                            if (genre.IsActive)
+                            {
+                                <span class="badge badge-success">Aktif</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-danger">Pasif</span>
+                            }
+                        }
+                    </td>
+                    <td> <a asp-action="DeleteGenre" asp-controller="Genre" asp-route-id="@genre.Id" type="submit" class="btn btn-danger">Sil</a></td>
+                    <td> <a asp-action="UpdateGenre" asp-controller="Genre" asp-route-id="@genre.Id" type="submit" class="btn btn-warning">Güncelle</a></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

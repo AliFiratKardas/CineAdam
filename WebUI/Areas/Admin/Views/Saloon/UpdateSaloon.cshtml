@@ -1,0 +1,25 @@
+﻿@model DataAccess.Entity.Saloon
+@{
+    ViewData["Title"] = "UpdateSaloon";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="UpdateSaloon" asp-controller="Saloon" method="post">
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+        </div>
+        <span asp-validation-for="SaloonName" class="text-danger"></span>
+        <input asp-for="SaloonName" class="form-control" />
+    </div> <!-- form-group// -->
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+        </div>
+        <span asp-validation-for="Capacity" class="text-danger"></span>
+        <input asp-for="Capacity" class="form-control" />
+    </div> <!-- form-group// -->
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Güncelle  </button>
+    </div> <!-- form-group// -->
+</form>

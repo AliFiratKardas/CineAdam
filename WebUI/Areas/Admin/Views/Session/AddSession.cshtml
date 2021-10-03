@@ -1,0 +1,16 @@
+﻿@model DataAccess.Entity.Session
+@{
+    ViewData["Title"] = "AddSession";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="AddSession" asp-controller="Session" method="post">
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Oturum</label>
+        <input asp-for="SessionTime" type="time" class="form-control" placeholder="Oturum Giriniz">
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
+

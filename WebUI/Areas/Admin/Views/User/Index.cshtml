@@ -1,0 +1,65 @@
+﻿@model List<DataAccess.Entity.User>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Kullanıcılar</h2>
+            </div>
+            <div class="col-md-6 text-right">
+
+                <a asp-action="AddUser" asp-controller="User" type="submit" class="btn btn-primary">Ekle</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Öğrenci</th>
+                    <th>Kulanıcı Adı</th>
+                    <th>Email</th>
+                    <th>Cinsiyet</th>
+                    <th>Aktif mi?</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.FirstName</td>
+                    <td>@user.LastName</td>
+                    <td>@user.IsStudent</td>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td>@user.Gender</td>
+                    <td>
+                        @{
+                            if (user.IsActive)
+                            {
+                                <span class="badge badge-success">Aktif</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-danger">Pasif</span>
+                            }
+                        }
+                    </td>
+                    <td> <a asp-action="DeleteUser" asp-controller="User" asp-route-id="@user.Id" type="submit" class="btn btn-danger">Sil</a></td>
+                    <td> <a asp-action="UpdateUser" asp-controller="User" asp-route-id="@user.Id" type="submit" class="btn btn-warning">Güncelle</a></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

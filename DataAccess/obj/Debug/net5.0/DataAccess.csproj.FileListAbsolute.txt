@@ -1,0 +1,60 @@
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YMS3148\12-NetCoreMovieTheater\NetCoreMovieTheater\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\abdulkadir.gul\Desktop\NetCoreMovieTheather\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\firat.kardas\Desktop\NetCoreMovieTheater-main\NetCoreMovie\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
+C:\Users\firat\Desktop\new project\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\firat\Desktop\new project\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
+C:\Users\firat\Desktop\new project\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
+C:\Users\firat\Desktop\new project\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\firat\Desktop\new project\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+C:\Users\firat\Desktop\new project\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\firat\Desktop\new project\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\firat\Desktop\new project\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\firat\Desktop\new project\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\firat\Desktop\new project\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\firat\Desktop\new project\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\firat\Desktop\new project\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\firat\Desktop\new project\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+C:\Users\firat\Desktop\new project\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\firat\Desktop\new project\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache

@@ -1,0 +1,55 @@
+﻿@model List<DataAccess.Entity.Session>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Oturumlar</h2>
+            </div>
+            <div class="col-md-6 text-right">
+
+                <a asp-action="AddSession" asp-controller="Session" type="submit" class="btn btn-primary">Ekle</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Oturum Saati</th>
+                    <th>Aktif m?</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var session in Model)
+                {
+                <tr>
+                    <td>@session.Id</td>
+                    <td>@session.SessionTime</td>
+                    <td>
+                        @{
+                            if (session.IsActive)
+                            {
+                                <span class="badge badge-success">Aktif</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-danger">Pasif</span>
+                            }
+                        }
+                    </td>
+                    <td> <a asp-action="DeleteSession" asp-controller="Session" asp-route-id="@session.Id" type="submit" class="btn btn-danger">Sil</a></td>
+                    <td> <a asp-action="UpdateSession" asp-controller="Session" asp-route-id="@session.Id" type="submit" class="btn btn-warning">Güncelle</a></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

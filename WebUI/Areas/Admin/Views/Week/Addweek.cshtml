@@ -1,0 +1,19 @@
+﻿@model DataAccess.Entity.Week
+@{
+    ViewData["Title"] = "Addweek";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="AddWeek" asp-controller="Week" method="post">
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">İlk Hafta</label>
+        <input asp-for="FirstDay" type="date" class="form-control" placeholder="İlk gün Giriniz">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Son Hafta</label>
+        <input asp-for="LastDay" type="date" class="form-control" placeholder="son gün Giriniz">
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
+

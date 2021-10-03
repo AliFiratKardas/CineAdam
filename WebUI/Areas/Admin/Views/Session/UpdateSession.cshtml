@@ -1,0 +1,19 @@
+﻿@model DataAccess.Entity.Session
+@{
+    ViewData["Title"] = "UpdateSession";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="UpdateSession" asp-controller="Session" method="post">
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+        </div>
+        <span asp-validation-for="SessionTime" class="text-danger"></span>
+        <input asp-for="SessionTime" class="form-control" />
+    </div> <!-- form-group// -->
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Güncelle  </button>
+    </div> <!-- form-group// -->
+</form>
+

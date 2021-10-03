@@ -1,0 +1,61 @@
+﻿@model List<DataAccess.Entity.Reservation>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Rezervasyonlar</h2>
+            </div>
+            <div class="col-md-6 text-right">
+
+                <a asp-action="AddReservation" asp-controller="Reservation" type="submit" class="btn btn-primary">Ekle</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>İzleyici Adı</th>
+                    <th>Film</th>
+                    <th>Salon</th>
+                    <th>Tarih</th>
+                    <th>Oturum</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var reservation in Model)
+                {
+                    <tr>
+                        <td>@reservation.Id</td>
+                        <td>@reservation.AppUser.UserName</td>
+                        <td>@reservation.Movie.MovieName</td>
+                        <td>@reservation.Saloon.SaloonName</td>
+                        <td>@reservation.Week.FirstDay</td>
+                        <td>@reservation.Session.SessionTime</td>
+                        <td>
+                            @{
+                                if (reservation.IsActive)
+                                {
+                                    <span class="badge badge-success">Aktif</span>
+                                }
+                                else
+                                {
+                                    <span class="badge badge-danger">Pasif</span>
+                                }
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

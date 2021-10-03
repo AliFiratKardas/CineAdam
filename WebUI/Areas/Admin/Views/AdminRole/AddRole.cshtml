@@ -1,0 +1,23 @@
+﻿@model string
+@{
+    ViewData["Title"] = "AddRole";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>AddRole</h1>
+
+
+
+
+
+
+<form asp-action="AddRole" asp-controller="AdminRole" method="post">
+
+    <div class="form-group">
+        <label form="name" for="exampleInputEmail1">Role name</label>
+        <input name="name" class="form-control" placeholder="Role Giriniz">
+    </div>
+  
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
